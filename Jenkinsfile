@@ -3,7 +3,7 @@ pipeline{
 	agent any
 
 	environment {
-		DOCKERHUB_CREDENTIALS=credentials('mastoura-dockerhub')
+		DOCKERHUB_CREDENTIALS=credentials('Mastoura-dockerhub-token')
 	}
 
 	stages {
